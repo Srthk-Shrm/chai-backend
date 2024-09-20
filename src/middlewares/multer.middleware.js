@@ -1,6 +1,6 @@
 import multer from "multer";
 
-//copied from mulet documentaion about disk storage
+//copied from multer documentaion about disk storage
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
     cb(null, "./public/temp");
